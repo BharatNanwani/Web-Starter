@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/BharatNanwani/Web-Starter/issues"
   },
-  "homepage": "https://github.com/BharatNanwani/Web-Starter#readme"
+  "homepage": "https://github.com/BharatNanwani/Web-Starter#readme",
+  "dependencies": {
+    "sass": "^1.54.4"
+  }
 }
