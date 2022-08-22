@@ -5,10 +5,12 @@
   "main": "index.html",
   "scripts": {
     "build:sass": "sass src/sass:public/css",
+    "build:webpack": "webpack",
     "copy:html": "copyfiles -u 1 ./src/*.html public --source-maps",
     "copy": "npm-run-all --parallel copy:*",
     "watch:html": "onchange 'src/*.html' -- npm run copy:html",
     "watch:sass": "sass --watch src/sass:public/css",
+    "watch:webpack": "webpack",
     "watch": "npm-run-all --parallel watch:*",
     "serve": "browser-sync start --server public --files public",
     "start": "npm-run-all copy --parallel watch serve",
